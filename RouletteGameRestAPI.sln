@@ -23,6 +23,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_Repository", "_Repository\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_Entities", "_Entities\_Entities.csproj", "{2C3B3BB5-795B-4091-8891-78651E1342B5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL  Q1", "SQL  Q1", "{35FC693E-54E9-4BC9-BD6E-4A361AC5FC84}"
+	ProjectSection(SolutionItems) = preProject
+		Sql\northwind.sql.txt = Sql\northwind.sql.txt
+		Sql\pr_GetSummaryOrders.sql = Sql\pr_GetSummaryOrders.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
